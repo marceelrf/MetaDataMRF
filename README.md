@@ -8,6 +8,7 @@ With the increase of data production, it is becoming increasingly necessary to o
 Currently, MetaDataMRF package is maintained by [marceelrf](https://github.com/marceelrf), if you met any problem during using the software, please email: marcel.ferreira@unesp.br
 
 ## *The metaDataMRF() function*
+The metaDataMRF function take *dirname* as a single argument. This enables the user to run the function without having to previously set the directory work. The function will return a CSV file contain the metadata information. The file is automatically named by the date of compilation (**EX** "20191020metaData.csv").
 
 ## *File name*
 The first step is the standardization of file names. Considering my needs, I chose the file name as *"date_project_colleagues_experiment_sample_type.format"*. For example, last week my colleague Gerson and I conducted XRD experiments with hydroxyapatite samples (*__The date of the analysis was November 20, 2019__*). Then the file containing the analysis data was named as "*20191120_057317_Gerson_DRX_HA1150_data.txt*".
