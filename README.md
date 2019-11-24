@@ -37,7 +37,7 @@ The experiment component of the file name sould be write as short as possible. I
 Sample component should be short and standarized across different experiments.
 
 ### *Type*
-**_Image_**, **_graph_**, **_text_** are some examples of type of files common used.
+**_Image_**, **_graph_**, **_text_** and **_data_** are some examples of type of files common used.
 
 ### *Format*
 The format componet are the only componet automatically generated. You do not need to worry.
